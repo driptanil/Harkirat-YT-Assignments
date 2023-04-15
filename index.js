@@ -1,14 +1,3 @@
-This repository contains all attempted assignment given by youtuber/mentor: [Harkirat Singh](https://www.youtube.com/@harkirat1)
-
----
-
-# Full Stack Assignment 1
-
-This branch `fullstack-assignment-1` contains the fullstack assignment given in [Complete Full Stack Developer Roadmap! (2023 Edition)](https://www.youtube.com/watch?v=od4hT9abIMQ)
-
-## Code index.js :
-
-```javascript
 /*
 Setting Up Environment:
     1. `npm init` to initialize node js app
@@ -46,11 +35,3 @@ app.post("/api/max", async (request, response) => {
 app.listen(PORT, HOST, () => {
 	console.log(`Server is working: http://${HOST}:${PORT}`);
 });
-```
-
-## Output:
-
-Using [Postman](https://www.postman.com/) which is an application for testing API.
-
-![](./images/postmanOutput2.png)
-![](./images/postmanOutput.png)
